@@ -1,8 +1,32 @@
 <html>
-  <head><title>Lisa's webpage</title></head>
   <body>
-    start of chat window
-    <br/>
+    
+    <!-- live chat button -->
+		<a id="liveagent_button_online_572250000004CL5" href="javascript://Chat" style="display: none;" onclick="liveagent.startChat('572250000004CL5')">
+			Online Chat
+		</a>
+		<div id="liveagent_button_offline_572250000004CL5" style="display: none;">
+			Offline Chat
+		</div>
+
+		<script type="text/javascript">
+			if (!window._laq) { window._laq = []; }
+			window._laq.push(
+				function(){
+					liveagent.showWhenOnline(
+						'572250000004CL5', 
+						document.getElementById('liveagent_button_online_572250000004CL5')
+					);
+					liveagent.showWhenOffline(
+						'572250000004CL5', 
+						document.getElementById('liveagent_button_offline_572250000004CL5')
+					);
+				}
+			);
+		</script>
+
+		
+		<!-- live agent deployment -->
   <script type='text/javascript' src='https://c.la1-c1cs-lon.salesforceliveagent.com/content/g/js/41.0/deployment.js'>Agent is live
     </script>
 <script type='text/javascript'>
