@@ -1,0 +1,18 @@
+<html>
+  <body>
+    <!-- live chat button -->
+		<img id="liveagent_button_online_573250000004Cb8" style="display: none; border: 0px none; cursor: pointer" onclick="liveagent.startChat('573250000004Cb8')" src="https://preprod-bmjgroupideas.cs80.force.com/livechat/resource/1515170587000/OnlineButton" /><div id="liveagent_button_offline_573250000004Cb8" style="display: none;"><!-- Offline Chat Content --></div><script type="text/javascript">
+if (!window._laq) { window._laq = []; }
+window._laq.push(function(){liveagent.showWhenOnline('573250000004Cb8', document.getElementById('liveagent_button_online_573250000004Cb8'));
+liveagent.showWhenOffline('573250000004Cb8', document.getElementById('liveagent_button_offline_573250000004Cb8'));
+});</script>
+
+
+	
+		<!-- live agent deployment -->
+  <script type='text/javascript' src='https://c.la1-c1cs-lon.salesforceliveagent.com/content/g/js/41.0/deployment.js'>Agent is Live</script>
+<script type='text/javascript'>
+liveagent.init('https://d.la1-c1cs-lon.salesforceliveagent.com/chat', '572250000004CL5', '00D25000000DxYu');
+</script>
+  </body>    
+</html>
